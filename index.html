@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCS Special Investigations</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+        
+        :root { --navy: #1a2c5e; --red: #c8102e; }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.7;
+            color: #333;
+            margin: 0;
+            background: #f8f9fa;
+        }
+        
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .section { padding: 60px 0; }
+        
+        h1, h2 { font-family: 'Playfair Display', serif; color: var(--navy); }
+        
+        .about-text { font-size: 1.1rem; max-width: 820px; margin: 0 auto; }
+        
+        .videos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .video-wrapper {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .video-wrapper h3 { color: var(--navy); margin-bottom: 15px; text-align: center; }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--red);
+            color: white;
+            padding: 18px 45px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 15px 10px;
+            box-shadow: 0 6px 20px rgba(200,16,46,0.3);
+        }
+        
+        .cta-button:hover { background: #a00c24; transform: translateY(-3px); }
+        
+        .licenses {
+            background: white;
+            border: 2px solid var(--navy);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            max-width: 520px;
+            margin: 40px auto;
+        }
+        
+        footer {
+            background: #1a2c5e;
+            color: #ddd;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.95rem;
+        }
+        
+        .flag-gif {
+            width: 60px;
+            height: auto;
+            opacity: 0.85;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- ABOUT US -->
+        <div class="section" style="background:white;border-radius:12px;padding:60px 40px;box-shadow:0 10px 30px rgba(0,0,0,0.08);">
+            <h2 style="text-align:center;font-size:2.4rem;">About WCS Special Investigations</h2>
+            <div class="about-text">
+                <p><strong>WCS Special Investigations</strong> is a licensed private investigation agency (Florida #A3600029 | Alabama #93) dedicated to supporting criminal defense attorneys and their clients with thorough, street-level investigative work.</p>
+                
+                <p>Our mission is simple: deliver the factual foundation that helps build the strongest possible defense from day one. We specialize in locating witnesses, conducting recorded interviews, gathering critical evidence, and performing comprehensive background checks — all with the goal of helping defense counsel develop powerful theories of defense, strengthen motions, and achieve better outcomes in plea negotiations and at trial.</p>
+                
+                <p>Proper investigation at the outset protects not only the client’s freedom but also the attorney from later claims of ineffective assistance of counsel under the <em>Strickland</em> standard and Florida Rule 3.850. Our detailed, professional reports create a clear record of reasonable professional judgment.</p>
+                
+                <p>We proudly serve private-paying clients who can retain us directly for immediate work, as well as court-appointed and indigent cases through approved funding channels including <strong>CJA</strong> (federal), <strong>JAC</strong> (Florida), and <strong>OIDS</strong> (Alabama).</p>
+            </div>
+        </div>
+
+        <!-- VIDEOS -->
+        <div class="section">
+            <h2 style="text-align:center;font-size:2.3rem;">Our Work in Action</h2>
+            <div class="videos-grid">
+                <div class="video-wrapper">
+                    <h3>For Criminal Defense Attorneys</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/YR63EMdZPXY" title="Attorney Commercial" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-wrapper">
+                    <h3>For Criminal Defendants &amp; Clients</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/oRD4IogW67U" title="Client Commercial" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CALL TO ACTION -->
+        <div class="section" style="text-align:center;background:white;border-radius:12px;padding:60px 40px;box-shadow:0 10px 30px rgba(0,0,0,0.08);">
+            <h2 style="color:#1a2c5e;">Ready to Strengthen Your Case?</h2>
+            <p style="font-size:1.2rem;max-width:600px;margin:0 auto 30px;">Let our experienced investigators deliver the results you need.</p>
+            
+            <a href="mailto:ben@wcsinvestigations.com" class="cta-button">Speak with an investigator</a>
+            
+            <div style="margin-top:40px;">
+                <h3 style="color:var(--navy);">Process Service in the 1st Judicial Circuit of Florida</h3>
+                <p style="max-width:700px;margin:15px auto;">Having a certified investigator handle your legal process service ensures professionalism, proper documentation, and higher success rates of service — especially in difficult or evasive cases. Our certified process server combines investigative expertise with legal service delivery.</p>
+                <a href="mailto:ben@wcsinvestigations.com?subject=Process%20Service%20Quote%20-%201st%20Judicial%20Circuit" class="cta-button" style="background:#1a2c5e;">Get a Process Service Quote</a>
+            </div>
+        </div>
+
+        <!-- LICENSES -->
+        <div class="licenses">
+            <h3 style="color:#1a2c5e;">Licensed &amp; Bonded</h3>
+            <p style="font-size:1.15rem;">
+                Florida Agency License #A3600029<br>
+                Alabama Agency License #93 <br>
+Florida 1st Judicial Circuit Process Server #713
+
+            </p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXV2NHpnb2NldDdoMW50aW1qa2Nmb3ZucjYxcTZ6eHNvbzVpN3V3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFMDqop2ku4M0/giphy.gif" alt="American Flag" class="flag-gif"> <!-- Replace with actual subtle flag GIF if needed -->
+            <p><strong>WCS Special Investigations of Northwest Florida</strong> • Pensacola, Florida</p>
+            <p class="veteran-note" style="margin:8px 0;">WCS Special Investigations is a veteran owned company.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
